@@ -1,5 +1,7 @@
+using ProgressMeter
 using ParallelProgressMeter
-using Base.Test
 
-# write your own tests here
-@test 1 == 2
+addprocs(4)
+@parallelprogress for i in 1:10
+    sleep(0.1)
+end
