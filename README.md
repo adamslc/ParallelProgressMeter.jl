@@ -1,5 +1,7 @@
 # ParallelProgressMeter
 
+![BuildStatus](https://travis-ci.org/adamslc/ParallelProgressMeter.jl.svg?branch=master)
+
 This package implements a version of [ProgressMeter.jl](https://github.com/timholy/ProgressMeter.jl) that works for loops using the `@parallel` macro.
 
 It was partially modeled after [PmapProgressMeter.jl](https://github.com/slundberg/PmapProgressMeter.jl).
